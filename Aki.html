@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <title> Akram </title>
+   <style type="text/css">
+      .card {
+         box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+         width: 50px;
+         box-sizing: border-box;
+         transition-duration: 1s;
+      }
+      .card > img {
+         display: block;
+         max-width: 100%;
+         height: auto;
+         margin: 0px;
+      }
+      .card > p {
+         font-family: sans-serif;
+         padding: 0px 10px 10px 10px;
+         text-align: center;
+         height: 1px;
+      }
+      #h1 {
+         text-shadow: 2px 2px 3px red;
+         text-align: center;
+         padding: 200px;
+         padding-right: 20px;
+      }
+       @font-face {
+         font-family: myFont;
+         src: url('Battlesbridge.ttf');
+         p {
+             font-family: myfont;
+         }
+      }
+      body {
+          background-image: linear-gradient(black,red);
+          border: 2px solid;
+      }
+      #h {
+          text-align: center;
+          color: red;
+          border: 6px;
+      }
+      img {
+          float: left;
+      }
+      h1:hover {
+          color: brown;
+          font-size: 40px;
+      }
+      h1 {
+         transition-duration: 2s;
+      }
+               *{
+           margin: 0;
+           padding: 0; font-family: 'Poppins', sans-serif;
+      }
+         .nav-bar a {
+         text-decoration: none;
+         color: black,red;
+         display: block;
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         padding: 10px;
+         background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar > ul > li {
+         float: left;
+         width: 25%; /* 100% / 4 (number of li elements) = 25% */
+         text-align: center;
+      }
+       nav.sticky .menu a:hover{
+
+    color: #FF6B00;
+      }
+   </style>
+</head>
+<body>
+        <div class="nav-bar">
+      <ul>
+         <li><a href="#home" class="active"> Home </a></li>
+         <li><a href="#about"> About </a></li>
+         <li><a href="#articles"> Articles </a></li>
+         <li><a href="#gallery"> Gallery </a></li>
+      </ul>
+   </div>
+   <section id="home">
+      <h1 id=h1> AKRAM WELCOMES YOU TO IS  WEBSITE </h1>
+      <h4 id=h> About </h4>
+      <div class="card">
+         <img src="profile.jpg" />
+      </div>
+   </section>
+ </body>
+</html>
